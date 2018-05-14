@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/owcollier/hellothreejs/issues"
   },
-  "homepage": "https://github.com/owcollier/hellothreejs#readme"
+  "homepage": "https://github.com/owcollier/hellothreejs#readme",
+  "devDependencies": {
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  }
 }
