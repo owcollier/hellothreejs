@@ -1,5 +1,7 @@
 'use strict';
 
+import * as THREE from 'three';
+
 let scene, camera, renderer;
 
 let geometry, material;
