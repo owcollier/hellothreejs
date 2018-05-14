@@ -22,11 +22,7 @@ function init() {
   scene.add( cube );
 
   camera.position.z = 5;
-
-  let controls = new THREE.OrbitControls( camera, renderer.domElement );
-  controls.maxPolarAngle = Math.PI * 0.5;
-  controls.minDistance = 1000;
-  controls.maxDistance = 5000;
+  
 }
 
 function animate() {
